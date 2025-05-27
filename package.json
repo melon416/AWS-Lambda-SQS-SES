@@ -1,0 +1,26 @@
+{
+  "name": "ticketsqueeze-newsletter-automation",
+  "version": "1.0.0",
+  "description": "Newsletter email automation using AWS SQS, Lambda, and SES for TicketSqueeze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "ses",
+    "sqs",
+    "email",
+    "newsletter",
+    "ticketsqueeze"
+  ],
+  "author": "TicketSqueeze",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.450.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 

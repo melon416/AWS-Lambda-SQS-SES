@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "messageId": "simple-test-001",
+      "receiptHandle": "SimpleTestReceiptHandle",
+      "body": "{\"emails\": [\"success@simulator.amazonses.com\"], \"subject\": \"Simple Test Email\", \"html_body\": \"<html><body><h1>Test Email</h1><p>This is a simple test to verify the Lambda function works correctly.</p><p>If you receive this email, the function is working!</p></body></html>\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "123456789012",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "simple-test",
+        "MessageDeduplicationId": "simple-001"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "simple-test-md5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    }
+  ]
+} 

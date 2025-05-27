@@ -1,0 +1,58 @@
+{
+  "Records": [
+    {
+      "messageId": "error-test-001",
+      "receiptHandle": "ErrorTestReceiptHandle",
+      "body": "{\"emails\": [], \"subject\": \"Test Email\", \"html_body\": \"<html><body><h1>Test</h1></body></html>\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "123456789012",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "error-test",
+        "MessageDeduplicationId": "error-001"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "error-test-md5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "error-test-002",
+      "receiptHandle": "ErrorTestReceiptHandle2",
+      "body": "{\"subject\": \"Missing emails field\", \"html_body\": \"<html><body><h1>Test</h1></body></html>\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "123456789012",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "error-test",
+        "MessageDeduplicationId": "error-002"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "error-test-md5-2",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "error-test-003",
+      "receiptHandle": "ErrorTestReceiptHandle3",
+      "body": "invalid-json-format",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "123456789012",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "error-test",
+        "MessageDeduplicationId": "error-003"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "error-test-md5-3",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    }
+  ]
+} 

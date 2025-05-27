@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "messageId": "test-message-1",
+      "receiptHandle": "test-receipt-handle",
+      "body": "{\"emails\": [\"test1@example.com\", \"test2@example.com\"], \"subject\": \"TicketSqueeze Newsletter - Latest Events\", \"html_body\": \"<html><head><title>TicketSqueeze Newsletter</title></head><body><h1>Welcome to TicketSqueeze!</h1><p>Check out our latest events and exclusive deals.</p><p>Don't miss out on the hottest tickets in town!</p><br><p>Best regards,<br>The TicketSqueeze Team</p></body></html>\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "729407190052",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "newsletter-group-1",
+        "MessageDeduplicationId": "newsletter-dedup-1"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "test-md5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:729407190052:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    }
+  ]
+} 

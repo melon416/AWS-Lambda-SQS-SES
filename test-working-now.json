@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "messageId": "working-test-001",
+      "receiptHandle": "WorkingTestReceiptHandle",
+      "body": "{\"emails\": [\"success@simulator.amazonses.com\"], \"subject\": \"✅ Test Email - Should Work Immediately\", \"html_body\": \"<html><body><h1>🎉 Success!</h1><p>This email was sent successfully from your Lambda function!</p><p><strong>From:</strong> info@ticketsqueeze.com</p><p><strong>To:</strong> success@simulator.amazonses.com</p><p>Your AWS SES and Lambda integration is working correctly.</p><hr><p><small>This is a test email using AWS SES simulator addresses that work in sandbox mode.</small></p></body></html>\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640995200000",
+        "SenderId": "729407190052",
+        "ApproximateFirstReceiveTimestamp": "1640995200000",
+        "MessageGroupId": "working-test",
+        "MessageDeduplicationId": "working-001"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "working-test-md5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:729407190052:TicketSqueeze-Email-Queue.fifo",
+      "awsRegion": "us-east-1"
+    }
+  ]
+} 
