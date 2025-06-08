@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+lambda_function.zip
+dist/
+build/
+
+# Terraform
+tf/.terraform/
+tf/.terraform.lock.hcl
+tf/terraform.tfstate
+tf/terraform.tfstate.backup
+tf/*.tfvars
+tf/.terraform.tfstate.lock.info
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache 
